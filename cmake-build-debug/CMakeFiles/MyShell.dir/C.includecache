@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jordan/CLionProjects/MyShell/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+sys/wait.h
+-
+stdio_ext.h
+-
+structures.h
+/home/jordan/CLionProjects/MyShell/structures.h
+fcntl.h
+-
+
+/home/jordan/CLionProjects/MyShell/structures.h
+
